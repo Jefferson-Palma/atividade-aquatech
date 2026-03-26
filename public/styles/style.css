@@ -1,0 +1,166 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.footer{
+    background-color: #32b9cd;
+    color:white;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer .container{
+    text-align: center;
+}
+.footer h4{
+    margin:0px;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom-width: 5px;
+    border-color: #32b9cd;
+}
+.header .container{
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.container .titulo{
+    color:#32b9cd;
+
+}
+
+.banner{
+    
+    
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+.banner .container{
+    width: 100%;
+    height: 100%;
+    padding-left: 40%;
+    padding-top: 150px;
+
+}
+.banner p{
+    width: 120px;
+}
+.banner span{
+    font-weight: bold;
+}
+
+.container .navbar{
+    text-decoration: none;
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+    display: flex;
+    color:#d4b085;
+}
+.navbar li{
+    text-decoration: none;
+    display: flex;
+    color:#d4b085;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    text-align: center;
+    width: 20%;
+    padding: 40px;
+}
+.box h4{
+    color: #e11256;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+}
+
+.social{
+    background-color: #e5e5e5;
+}
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+}
+.card{
+    flex-direction: column;
+    display: flex;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    color:#d96f98;
+}
+.formulario{
+    padding-top: 0px;
+
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+.card h2{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.campo{
+flex-direction: column;
+display: flex;
+width: 100%;
+margin: 10px;
+align-items: flex-start;
+}
+
+.campo input{
+    width: 100%;
+    border-radius: 5px;
+    border:#32b9cd solid 2px;
+    height: 25px;
+    text-align: center;
+}
+
+.formulario button{
+    background-color: #e11256;
+    color: white;
+    border-radius: 5px;
+    border:0px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
